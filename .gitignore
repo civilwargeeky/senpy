@@ -1,2 +1,4 @@
 /senpy/__pycache__/*
 /sphinx/*
+build.bat
+/dist/*

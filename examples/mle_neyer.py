@@ -1,8 +1,7 @@
-# the following adds the location of the senpy package (the top repo directory)
-# to the python path. Is only needed if the package has not already been made
-# accessible for import.
 import sys
 import os
+# This code is just used if the package is installed one directory above this code
+# (default if you download the package, not through pip)
 senpy_package_location = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if senpy_package_location not in sys.path:
     sys.path.append(senpy_package_location)
