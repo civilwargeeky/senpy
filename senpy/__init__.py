@@ -7,4 +7,4 @@ Created on Sun Mar 22 17:28:13 2020
 
 from . import neyer
 
-__version__ = 1.3.0
+__version__ = "1.3.1"
